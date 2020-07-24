@@ -1,0 +1,49 @@
+<%= form_with(model: movie, local: true) do |form| %>
+  <% if movie.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+
+      <ul>
+      <% movie.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div style="width: 25%">
+    <p>
+      <div class="d-flex justify-content-between">
+        <%= form.label :movie %>
+        <%= form.text_field :movie, style:'width: 75%' %>
+      </div>
+    </p>
+
+    <p>
+      <div class="d-flex justify-content-between">
+        <%= form.label :year %>
+        <%= form.text_field :year, style:'width: 75%' %>
+      </div>
+    </p>
+
+    <p>
+      <div class="d-flex justify-content-between">
+        <%= form.label :kind %>
+        <%= form.text_field :kind, style:'width: 75%' %>
+      </div>
+    </p>
+
+    <p>
+      <div class="d-flex justify-content-between">
+        <%= form.label :synopsis %>
+        <%= form.text_area :synopsis, style:'width: 75%' %>
+      </div>
+    </p>
+    <br>
+    <p>
+      <div class="actions">
+        <%= form.submit nil, class:'btn btn-primary' %>
+      </div>
+    </p>
+  </div>
+<% end %>

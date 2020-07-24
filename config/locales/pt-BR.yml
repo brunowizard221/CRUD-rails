@@ -1,0 +1,19 @@
+pt-BR:
+  hello: "Olá mundo"
+  welcome: "Seja bem vindo!"
+  welcome_msg: "Este é o Movie, seu melhor canal de filmes do mundo!!"
+  beginning: "Para iniciar sua experiência, selecione uma opção:"
+  movies: "Filmes"
+  director: "Diretores"
+  confirmation: "Você tem certeza?"
+  language:
+    portuguese: "Português"
+    english: "Inglês"
+  button:
+    back: "Voltar"
+    show: "Mostrar"
+    edit: "Editar"
+    destroy: "Apagar"
+  movie:
+    new: "Novo filme"
+    edit: "Editando filme"

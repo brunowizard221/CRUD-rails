@@ -1,0 +1,6 @@
+<h1><%= t('movie.edit') %></h1>
+
+<%= render 'form', movie: @movie %>
+
+<%= link_to t('button.show'), @movie, class:'btn btn-primary' %> |
+<%= link_to t('button.back'), movies_path, class:'btn btn-primary' %>

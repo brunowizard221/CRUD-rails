@@ -1,0 +1,15 @@
+'pt-BR':
+  activerecord:
+    models:
+      movie: 
+        one: "Filme"
+        other: "Filmes"
+    attributes:
+      movie:
+        id: ID
+        movie: Filme
+        year: Ano
+        kind: Tipo
+        synopsis: Sinopse
+        updated_at: Atualizado em
+        created_at: Criado em

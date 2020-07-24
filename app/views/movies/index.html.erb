@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= Movie.model_name.human(count: 2) %></h1>
+
+<table class="table table table-bordered table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th><%= @movies.human_attribute_name(:movie) %></th>
+      <th><%= @movies.human_attribute_name(:year) %></th>
+      <th><%= @movies.human_attribute_name(:kind) %></th>
+      <th><%= @movies.human_attribute_name(:synopsis) %></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody class="text-white">
+    <% @movies.each do |movie| %>
+      <tr>
+        <td><%= movie.movie %></td>
+        <td><%= movie.year %></td>
+        <td><%= movie.kind %></td>
+        <td><%= movie.synopsis %></td>
+        <td><%= link_to t('button.show'), movie, class:'btn btn-secondary' %></td>
+        <td><%= link_to t('button.edit'), edit_movie_path(movie), class:'btn btn-secondary' %></td>
+        <td><%= link_to t('button.destroy'), movie, method: :delete, data: { confirm: t('confirmation') }, class:'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<p><%= link_to t('movie.new'), new_movie_path, class: 'btn btn-primary' %></p>
+<p><%= link_to t('button.back'), welcome_index_path, class: 'btn btn-primary' %></p>

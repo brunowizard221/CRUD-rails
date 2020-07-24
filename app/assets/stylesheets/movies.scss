@@ -1,0 +1,17 @@
+// Place all the styles related to the Movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background-color: #000;
+  color: #fff;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.zoom:hover{
+  transition: .2s;
+  transform: scale(1.4);
+}

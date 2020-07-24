@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<div class="media">
+  <%= image_tag("bckg.png", size: "250x250") %>
+  <div class="mx-auto" style="width: 75%">
+    <p>
+      <strong><%= Movie.human_attribute_name(:movie) %>:</strong>
+      <%= @movie.movie %>
+    </p>
+
+    <p>
+      <strong><%= Movie.human_attribute_name(:year) %>:</strong>
+      <%= @movie.year %>
+    </p>
+
+    <p>
+      <strong><%= Movie.human_attribute_name(:kind) %>:</strong>
+      <%= @movie.kind %>
+    </p>
+
+    <p>
+      <strong><%= Movie.human_attribute_name(:synopsis) %>:</strong>
+      <%= @movie.synopsis %>
+    </p>
+
+    <%= link_to t('button.edit'), edit_movie_path(@movie), class: 'btn btn-primary' %> |
+    <%= link_to t('button.back'), movies_path, class: 'btn btn-primary' %>
+  </div>
+</div>
+<br>
+
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
+<%= image_tag("bckg.png", class:"zoom", size:"200x200") %>
