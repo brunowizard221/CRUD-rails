@@ -17,9 +17,15 @@
   <body>
     <div class="container-fluid">
       <ul class="nav justify-content-end">
-        <li><%= link_to t('language.portuguese'), welcome_index_path(locale: 'pt-BR'), class:'nav-item', class:'btn btn-link btn-sm' %></li>
-        <li><%= link_to t('language.english'), welcome_index_path(locale: 'en'), class:'nav-item', class:'btn btn-link btn-sm' %></li>
-        <li><%= link_to 'HOME', welcome_index_path, class:'nav-item', class:'btn btn-link btn-sm' %></li>
+        <li>
+          <%= link_to 'HOME', root_path, class:'nav-link' %>
+        </li>
+        <li class="nav-item">
+          <%= link_to t('language.portuguese'), root_path(locale: 'pt-BR'), class:'nav-link' %>
+        </li>
+        <li class="nav-item">
+          <%= link_to t('language.english'), root_path(locale: 'en'), class:'nav-link' %>
+        </li>
       </ul>
       <%= yield %>
     </div>

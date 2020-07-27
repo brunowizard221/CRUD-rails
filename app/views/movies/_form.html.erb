@@ -11,32 +11,32 @@
     </div>
   <% end %>
 
-  <div style="width: 27%">
+  <div style="width: 70%">
     <p>
       <div class="d-flex justify-content-between">
         <%= form.label :movie %>
-        <%= form.text_field :movie, style:'width: 75%' %>
+        <%= form.text_field :movie, style:'width: 90%', placeholder: 'exemplo de filme' %>
       </div>
     </p>
 
     <p>
       <div class="d-flex justify-content-between">
         <%= form.label :year %>
-        <%= form.text_field :year, style:'width: 75%' %>
+        <%= form.text_field :year, style:'width: 90%', placeholder: '1995' %>
       </div>
     </p>
 
     <p>
       <div class="d-flex justify-content-between">
         <%= form.label :kind %>
-        <%= form.text_field :kind, style:'width: 75%' %>
+        <%= form.text_field :kind, style:'width: 90%', placeholder: 'horror' %>
       </div>
     </p>
 
     <p>
       <div class="d-flex justify-content-between">
         <%= form.label :synopsis %>
-        <%= form.text_area :synopsis, style:'width: 75%' %>
+        <%= form.text_area :synopsis, style:'width: 90%', placeholder: 'A história se passa em...' %>
       </div>
     </p>
     <br>

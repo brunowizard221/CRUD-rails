@@ -33,7 +33,7 @@ en:
   hello: "Hello world"
   welcome: "Welcome!"
   welcome_msg: "This is Movie, your best movie channel in the world!!"
-  beginning: "For start your experience, choose an option:"
+  beginning: "Click below for start your experience!"
   movie: "Movie"
   movies: "Movies"
   year: "Year"

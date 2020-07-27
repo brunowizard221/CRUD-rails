@@ -2,7 +2,7 @@ pt-BR:
   hello: "Olá mundo"
   welcome: "Seja bem vindo!"
   welcome_msg: "Este é o Movie, seu melhor canal de filmes do mundo!!"
-  beginning: "Para iniciar sua experiência, selecione uma opção:"
+  beginning: "Clique abaixo para iniciar sua experiência!"
   movie: "Filme"
   movies: "Filmes"
   year: "Ano"
