@@ -9,7 +9,7 @@ pt-BR:
   kind: "Tipo"
   synopsis: "Sinopse"
   director: "Diretores"
-  confirmation: "Você tem certeza?"
+  msg_confirm: "Você tem certeza?"
   language:
     portuguese: "Português"
     english: "Inglês"

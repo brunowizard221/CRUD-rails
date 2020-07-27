@@ -40,7 +40,7 @@ en:
   kind: "Kind"
   synopsis: "Synopsis"
   director: "Director"
-  confirmation: "Are you sure?"
+  msg_confirm: "Are you sure?"
   language:
     portuguese: "Portuguese"
     english: "English"
