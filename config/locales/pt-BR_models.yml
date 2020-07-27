@@ -11,5 +11,8 @@
         year: Ano
         kind: Tipo
         synopsis: Sinopse
+        update: Filme atualizado com sucesso.
         updated_at: Atualizado em
+        create: Filme criado com sucesso.
         created_at: Criado em
+        destroy: Filme destruído com sucesso.
