@@ -22,7 +22,7 @@
         <td><%= movie.synopsis %></td>
         <td><%= link_to t('button.show'), movie, class:'btn btn-secondary' %></td>
         <td><%= link_to t('button.edit'), edit_movie_path(movie), class:'btn btn-secondary' %></td>
-        <td><%= link_to t('button.destroy'), movie, method: :delete, data: { confirm: t('msg_confirm') }, class:'btn btn-danger' %></td>
+        <td><%= button_to t('button.destroy'), movie, method: :delete, data: { confirm: t('msg_confirm') }, class:'btn btn-danger' %></td>
       </tr>
     <% end %>
   </tbody>
