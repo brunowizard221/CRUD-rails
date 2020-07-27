@@ -34,7 +34,11 @@ en:
   welcome: "Welcome!"
   welcome_msg: "This is Movie, your best movie channel in the world!!"
   beginning: "For start your experience, choose an option:"
-  movie: "Movies"
+  movie: "Movie"
+  movies: "Movies"
+  year: "Year"
+  kind: "Kind"
+  synopsis: "Synopsis"
   director: "Director"
   confirmation: "Are you sure?"
   language:
@@ -48,3 +52,6 @@ en:
   movie:
     new: "New movie"
     edit: "Editing movie"
+    update: "Movie was succesfully updated."
+    create: "Movie was succesfully created."
+    destroy: "Movie was succesfully destroyed."

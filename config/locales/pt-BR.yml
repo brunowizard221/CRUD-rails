@@ -3,7 +3,11 @@ pt-BR:
   welcome: "Seja bem vindo!"
   welcome_msg: "Este é o Movie, seu melhor canal de filmes do mundo!!"
   beginning: "Para iniciar sua experiência, selecione uma opção:"
+  movie: "Filme"
   movies: "Filmes"
+  year: "Ano"
+  kind: "Tipo"
+  synopsis: "Sinopse"
   director: "Diretores"
   confirmation: "Você tem certeza?"
   language:
@@ -17,3 +21,6 @@ pt-BR:
   movie:
     new: "Novo filme"
     edit: "Editando filme"
+    update: Filme atualizado com sucesso.
+    create: Filme criado com sucesso.
+    destroy: Filme deletado com sucesso.

@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1><%= Movie.model_name.human(count: 2) %></h1>
+<h1><%= t('movies') %></h1>
 
-<table class="table table table-bordered table table-hover">
+<table class="table table table-bordered table table-hover table-dark">
   <thead class="thead-dark">
     <tr>
       <th><%= @movies.human_attribute_name(:movie) %></th>
