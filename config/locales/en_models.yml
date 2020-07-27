@@ -1,0 +1,15 @@
+en:
+  activerecord:
+    models:
+      movie: 
+        one: "Movie"
+        other: "Movies"
+    attributes:
+      movie:
+        id: ID
+        updated_at: Updated at
+        created_at: Created at
+        movie: "Movie"
+        year: "Year"
+        kind: "Kind"
+        synopsis: "Synopsis"
